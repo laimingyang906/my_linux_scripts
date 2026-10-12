@@ -1,4 +1,5 @@
 venv/
+venv/
 *.log
 *.save
 _pycache_/
