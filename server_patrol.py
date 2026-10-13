@@ -76,8 +76,7 @@ if __name__ == "__main__":
     # 把磁盘检查结果写进日志
     
     # 2. 执行网站检查
-    web_result = check_website("http://39.106.44.177")
-    # 调用 check_website 函数，检查我们自己的服务器，结果存在 web_result 变量里
+    web_result = check_website("http://1.1.1.1")
     logging.info(web_result)
     # 把网站检查结果写进日志
     
